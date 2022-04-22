@@ -1,4 +1,5 @@
 ---
 # tasks file for demo
-- name: print date
-  shell: date
+- name: print helloworld
+  debug:
+    msg: "hello world"
